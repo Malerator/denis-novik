@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/home.css" />
+    <link rel="stylesheet" href="style/about.css" />
+    <link rel="stylesheet" href="style/skills.css" />
+    <link rel="stylesheet" href="style/portfolio.css" />
+    <link rel="stylesheet" href="style/contacts.css">
+    <link rel="stylesheet" href="style/footer.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="header__menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+          <div class="header__burger">
+          <img src="./images/header/Group 3.svg" alt="burger">
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main >
+      <section id="home">
+        <div class="container">
+          <div class="home__info">
+            <h1>Denis Novik</h1>
+            <p>
+              UX | UI designer <br />
+              24 years old, Minsk
+            </p>
+          </div>
+          <picture>
+            <source media="(max-width: 425px)"srcset="./images/header/image-mobile-header.jpg"/>
+            <img src="./images/header/image-header.jpg" alt="" width="940" height="387" />
+          </picture>
+        </div>
+      </section >
+      <section id="about">
+        <div class="container">
+          <h2>About me</h2>
+            <p>
+              Hi, I'm Denis – UX/UI designer from Minsk.<br />I'm interested in
+              design and everything connected with it.
+            </p>
+            <p>
+              I'm studying at courses "Web and mobile design interfaces" in
+              IT-Academy.
+            </p>
+            <p>
+              Ready to implement excellent projects <br />
+              with wonderful people.
+            </p>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <p>I work in such programs as</p>
+          <div class="wraper">
+            <div class="label">
+              <img src="./images/skills/ps.svg" alt="ps" />
+                    <span class="text">Adobe<br>Photoshop</span>
+                <div>
+                    <img src="./images/skills/Star.svg" alt="" />
+                    <img src="./images/skills/Star.svg" alt="" />
+                    <img src="./images/skills/Star.svg" alt="" />
+                    <img src="./images/skills/Star.svg" alt="" />
+                    <img src="./images/skills/Star (1).svg" alt="" />
+                </div>
+            </div>
+            <div class="label"> <img src="./images/skills/ai.svg" alt=""/>
+                <span class="text">Adobe<br>Illustrator</span>
+            <div>
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star (1).svg" alt="" />
+                <img src="./images/skills/Star (1).svg" alt="" />
+            </div></div>
+            <div class="label"> <img src="./images/skills/ae.svg" alt=""/>
+                <span class="text">Adobe<br>After Effects</span>
+            <div>
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star (1).svg" alt="" />
+            </div></div>
+            <div class="label"> <img src="./images/skills/figma.svg" alt=""/>
+                <span class="text">Figma</span>
+            <div>
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star.svg" alt="" />
+                <img src="./images/skills/Star (1).svg" alt=""/>
+            </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+          <div>
+            <img src="./images/main/portfolio1.jpg" alt="portfolio" />
+            <a href="#">Online fashion store-Homepage</a>
+          </div>
+          <div>
+            <img src="./images/main/portfolio2.jpg" alt="reebok" />
+            <a href="">Reebok Store-Consept</a>
+          </div>
+          <div>
+            <img src="./images/main/portfolio3.jpg" alt="" />
+            <a href="#">Braun Landing Page-Concept</a>
+          </div>
+        </div>
+      </section>
+      <section id="contacts">
+      <div class="container">
+        <h2>Contacts</h2>
+        <p class="contacts__desc">Want to know more or just chat?<br>You are welcome!</p>
+        <a href="mailto:belik7337@gmail.com"><button class="btn">Send message</button></a>
+        <div class="wrapper">
+          <a href="#home"><img src="./images/contacts/in.svg" alt=""></a>
+          <a href="#home"><img src="./images/contacts/inst.svg" alt=""></a>
+          <a href="#home"><img src="./images/contacts/behance.svg" alt=""></a>
+          <a href="#home"><img src="./images/contacts/g.svg" alt=""></a>
+        </div>
+      </div>
+      </section>
+    </main>
+    <footer>
+      <p class="footer__desc">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+    </footer>
+  </body>
+</html>

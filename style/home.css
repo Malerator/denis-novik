@@ -1,0 +1,52 @@
+#home {
+  padding: 40px 0 104px;
+}
+
+h1 {
+  max-width: 124px;
+  font-family: "Gilroy-Bold";
+  font-size: 47px;
+  line-height: 59px;
+  text-align: left;
+}
+
+.home__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.home__info p {
+  max-width: 156px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  align-self: flex-end;
+  padding-bottom: 20px;
+}
+
+#home img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* начало мобильной версии*/
+@media (max-width: 425px) {
+  #home {
+    padding: 65px 30px 83px;
+  }
+
+  .home__info {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 37px;
+  }
+  .home__info p {
+    align-self: flex-start;
+    padding-bottom: 0;
+  }
+  h1 {
+    margin-bottom: 23px;
+  }
+}

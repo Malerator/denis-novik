@@ -1,0 +1,71 @@
+#contacts {
+  padding: 82px 0 46px;
+}
+
+#contacts h2 {
+  margin-bottom: 20px;
+}
+
+.contacts__desc {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: 30px auto 0 auto;
+  padding: 13px 29px;
+  background-color: #070707;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wrapper {
+  margin: 86px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 342px;
+  min-height: 41px;
+}
+
+.btn:hover {
+  background-color: #bcc1bf;
+  box-shadow: 0px 15px 20px rgba(185, 188, 187, 0.4);
+  transform: translateY(-7px);
+  transition: 0.3s;
+}
+
+#contacts a {
+  text-decoration: none;
+}
+
+/*начало мобильной версии*/
+
+@media (max-width: 425px) {
+  #contacts {
+    padding: 82px 30px 48px;
+  }
+  #contacts h2 {
+    margin-bottom: 27px;
+  }
+  .btn {
+    margin-top: 40px;
+    padding: 13px 96px;
+  }
+  .wrapper {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn {
+    padding: 13px 69px;
+  }
+}

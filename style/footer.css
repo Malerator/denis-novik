@@ -1,0 +1,23 @@
+footer {
+  padding: 46px 0 123px;
+}
+
+.footer__desc {
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+/* начало мобильной версии */
+
+@media (max-width: 425px) {
+  footer {
+    padding: 48px 30px 90px;
+  }
+  .footer__desc {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+}

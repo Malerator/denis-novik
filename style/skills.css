@@ -1,0 +1,62 @@
+#skills {
+  background-color: #ffffff;
+  padding-top: 91px;
+  padding-bottom: 110px;
+}
+
+#skills h2 {
+  margin: 0;
+}
+
+#skills p {
+  margin-bottom: 84px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  max-width: 140px;
+  min-height: 180px;
+  align-items: center;
+}
+
+.wraper {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  text-align: center;
+  min-height: 28px;
+}
+
+.label img {
+  max-width: 81px;
+  max-height: 81px;
+}
+
+/*мобильная версия*/
+
+@media (max-width: 425px) {
+  #skills {
+    padding: 83px 0 99px;
+  }
+
+  .wraper {
+    flex-direction: column;
+    gap: 80px 0;
+    align-items: center;
+  }
+
+  #skills h2 {
+    margin: 0;
+  }
+  #skills p {
+    margin: 50px 0 71px;
+  }
+}

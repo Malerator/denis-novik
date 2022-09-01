@@ -1,0 +1,40 @@
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0;
+  border-bottom: 1px solid #828282;
+}
+
+.header__menu li a {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #828282;
+  transition: 0.3s;
+}
+
+.header__menu li a:hover {
+  color: #070707;
+  transition: 0.3s;
+}
+
+.header__burger {
+  display: none;
+}
+
+/* начало мобильной версии */
+
+@media (max-width: 425px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__burger {
+    position: fixed;
+    top: 68px;
+    right: 30px;
+    display: block;
+  }
+}

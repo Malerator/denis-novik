@@ -1,0 +1,49 @@
+#portfolio {
+  padding-top: 112px;
+  padding-bottom: 96px;
+  background-color: #f6f6f6;
+}
+
+#portfolio h2 {
+  margin-bottom: 47px;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+#portfolio img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#portfolio a {
+  display: block;
+  text-align: center;
+  margin-top: 43px;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+}
+
+#portfolio div:nth-child(3) {
+  margin-top: 99px;
+  margin-bottom: 99px;
+}
+
+/*начало мобильной версии*/
+
+@media (max-width: 425px) {
+  #portfolio {
+    padding: 81px 30px;
+  }
+
+  #portfolio h2 {
+    margin: 0 0 64px;
+  }
+
+  #portfolio a {
+    margin-top: 35px;
+  }
+}

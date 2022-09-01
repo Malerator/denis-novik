@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  color: #070707;
+  background-color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+  color: #070707;
+}
+
+h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroy-Bold.ttf") format("truetype"),
+    url("../fonts/gilroy-Bold.woff") format("woff"),
+    url("../fonts/gilroy-Bold.woff2") format("woff2"),
+    url("../fonts/gilroy-Bold.eot?") format("eot");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-Medium.ttf") format("truetype"),
+    url("../fonts/gilroy-Medium.woff") format("woff"),
+    url("../fonts/gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/gilroy-Medium.eot?") format("eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
